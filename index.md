@@ -30,11 +30,11 @@ Hi! My name is [Your Full Name].
 <a href="https://open-coding-society.github.io/student">
     <img src="https://img.shields.io/badge/GitHub%20Pages-327FC7?logo=github&logoColor=white" alt="GitHub Pages">
 </a>
-<a href="https://kasm.opencodingsociety.com/" class="button small" style="background-color: #6b4bd3ff">
+<a href="https://kasm.opencodingsociety.com/" class="button small" style="background-color: #33188dff">
     KASM
 </a>
-<a href="https://vscode.dev/" class="button small" style="background-color: #8a4bd3ff">
-    <span style="color: #ffffffff">VSCODE</span>
+<a href="https://vscode.dev/" class="button small" style="background-color: #55228fff">
+    <span style="color: #a43636ff">VSCODE</span>
 </a>
 
 <br>
