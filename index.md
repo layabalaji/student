@@ -8,6 +8,8 @@ hide: true
 
 Hi! My name is [Your Full Name].
 
+
+
 | Role         | Name     | Repo Location                       | Stream                | Repo Name |
 |--------------|----------|-------------------------------------|-----------------------|-----------|
 | Scrum Master | John     | github.com/jm1021/student           | upstream (OCS fork)   | student   |
@@ -31,7 +33,7 @@ Hi! My name is [Your Full Name].
 <a href="https://kasm.opencodingsociety.com/" class="button small" style="background-color: #6b4bd3ff">
     KASM
 </a>
-<a href="https://vscode.dev/" class="button small" style="background-color: #d38a4bff">
+<a href="https://vscode.dev/" class="button small" style="background-color: #8a4bd3ff">
     <span style="color: #FFFFFF">VSCODE</span>
 </a>
 
