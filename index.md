@@ -40,7 +40,7 @@ Hi! My name is [Your Full Name].
 <br>
 
 ### Class Progress
-
+Here is a cute panda: ![A panda!](assests/Grosser_Panda.jpg "cute panda")
 <a href="{{site.baseurl}}/snake" class="button small" style="background-color: #6b4bd3ff">
     Snake Game
 </a>
@@ -58,5 +58,3 @@ Hi! My name is [Your Full Name].
 <p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
 <a href="https://chatgpt.com/" class="button small" style="background-color: #189467ff">
     ChatGPT
-
-![A panda!](/assests/images/Grosser_Panda.jpg "cute panda")
