@@ -28,6 +28,18 @@ flowchart TD
     E["🔄 SDLC<br>code → make → test → commit"]
 
     A --> A1 --> A2 --> B --> C --> D --> E
+
+```mermaid
+flowchart TD
+    A["💻 Open Windows Terminal"] 
+    A1["💻 Install WSL<br>wsl --install"] 
+    A2["💻 Launch Ubuntu Terminal<br>wsl"]
+    B["📁 Linux Commands<br>mkdir, cd, ls"]
+    C["📁 Clone Project<br>git clone https://<your-repo>"]
+    D["🛠️ Activate Tools<br>Ruby, Python, Git"]
+    E["🔄 SDLC<br>code → make → test → commit"]
+
+    A --> A1 --> A2 --> B --> C --> D --> E
 ```
 
 ## Shell Commands
@@ -56,17 +68,13 @@ flowchart TD
 
 ### Install VSCode
 
-[VSCode link, Select OS and select default on prompts](https://code.visualstudio.com/download)
+[VSCode link, Select OS and follow instructions](https://code.visualstudio.com/download)
 
-### Install Git Config Manager (GCM)
+### WSL commands
 
-[Git Config Manager and select default on prompts](https://git-scm.com/downloads/win)
+- `wsl --help`, `wsl -l -o`, `wsl -l -v`, `wsl --shutdown`
 
-### WSL common commands
-
-- `wsl --help`, `wsl -l -o`, `wsl -l -v`, `wsl --shutdown`, `wsl --uregister`
-
-### WSL install
+### WSL instll
 
 1. Open Windows Terminal and Pin to Taskbar. All of these commands are activated from Windows Shell (`C:\`)
 
@@ -77,12 +85,17 @@ flowchart TD
 2. Setup a username and password when prompted. On password you will be typing but will not see respones.
 
 3. At the conclusion of the install you will receive a WSL Ubuntu prompt.  For now we will exit WSL.
+2. Setup a username and password when prompted. On password you will be typing but will not see respones.
+
+3. At the conclusion of the install you will receive a WSL Ubuntu prompt.  For now we will exit WSL.
 
    ```bash
+   exit
    exit
    ```
 
 4. Set as default:  
+
 
    ```bash
    wsl --set-default Ubuntu-24.04
@@ -94,7 +107,7 @@ flowchart TD
    wsl
    ```
 
-6. Close Terminal.
+6. Close your terminal.
 
 ---
 
@@ -104,18 +117,24 @@ flowchart TD
 
 Open Terminal by right clicking on Terminal in Taskbar and selecting Ubuntu 24.04
 
-Run these commands to set up your Ubuntu developer tools for the first time.
+Run these commands to set up your Uubuntu developer tools for the first time.
 
 ```bash
 mkdir opencs
 cd opencs
-git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
 git clone https://github.com/Open-Coding-Society/student.git
 cd student/
-./scripts/activate_ubuntu.sh # prompts for your recently created WSL Ubuntu password
+./scripts/activate_ubuntu.sh # prompts for root password
 ./scripts/activate.sh # prompts for Git UID and Personal Email
+./scripts/activate.sh
 ./scripts/venv.sh
 ```
+
+#### System Checks (Optional)
+
+Open Terminal by right clicking on Terminal in Taskbar and selecting Ubuntu 24.04
+
+Run these commands to verify your system setup and check installed tools.
 
 #### System Checks (Optional)
 
@@ -128,8 +147,11 @@ python --version
 pip --version
 ruby -v
 bundle -v
-gem --version
+python --version
+jupyter --version
 git config --global --list
+jupyter kernelspec list
+pip list
 ```
 
 #### Restarting a terminal

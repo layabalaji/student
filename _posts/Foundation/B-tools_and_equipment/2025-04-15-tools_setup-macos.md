@@ -25,11 +25,22 @@ flowchart TD
     E["🔄 SDLC<br>code->make->test->commit"]
 
     A --> B --> C --> D --> E
+
+```mermaid
+flowchart TD
+    A["💻 Open Terminal"] 
+    B["> Linux Commands<br>mkdir, cd, ls"]
+    C["📁 Clone Project<br>git clone https://<your-repo>"]
+    D["🛠️ Activate Tools<br>Ruby, Python, Git"]
+    E["🔄 SDLC<br>code->make->test->commit"]
+
+    A --> B --> C --> D --> E
 ```
 
 ## Shell Commands
 
 You’ll use standard Unix shell commands:
+
 
 - MacOS: `ls`, `pwd`, `mkdir`, `cd`, `git`, `cat`
 
@@ -52,18 +63,19 @@ You’ll use standard Unix shell commands:
 
 ## MacOS Setup
 
-### 1. Install Homebrew
+### Install Homebrew
 
-Open a MacOS **Terminal** (keep it in the Dock for easy access).  
-Follow the instructions on [Homebrew Install](https://brew.sh/).  
+Open a MacOS "terminal" and Keep in Dock
 
-### 2. Install VS Code
+[Homebrew Install pages follow instructions](https://brew.sh/)
 
-Download and install [VS Code](https://code.visualstudio.com/download) for Mac.  
+#### Install VS Code
 
-### 3. First-time Setup
+[VSCode link, Select OS and follow instructions](https://code.visualstudio.com/download)
 
-⚠️ Run these commands **one line at a time** in Terminal.
+#### First-time Setup
+
+Run these commands to set up your MacOS developer tools for the first time.
 
 ```bash
 mkdir opencs
@@ -77,28 +89,31 @@ cd student/
 
 #### Setup Checks (Optional)
 
-Open a new MacOS "terminal" by clicking Terminal Icon in Dock
+Run these commands to verify your system setup and check installed tools.
 
-You can always come back to these checks later if your tools stop working.
+Open a MacOS "terminal" by clicking Terminal Icon in Dock
 
 ```bash
 python --version
 pip --version
 ruby -v
 bundle -v
-gem --version
+python --version
+jupyter --version
 git config --global --list
+jupyter kernelspec list
+pip list
 ```
 
-#### Starting a session to work in VSCode
+#### After restarting a terminal
 
-Open a new MacOS "terminal"
+Open a MacOS "terminal" by clicking Terminal Icon in Dock
 
-Each time you open a new Terminal to work, run:
+Each time you open a new terminal session, run these commands to activate your environment and start working on the student project in VS Code.
 
 ```bash
 cd opencs/student
-source venv/bin/activate # activate Python virtual environment
+source venv/bin/activate
 code .
 ```
 
