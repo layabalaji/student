@@ -1,12 +1,13 @@
 ---
 layout: base
 title: John Tab 
+title: John Tab 
 hide: true
 ---
 
 ### Me and Team
 
-Hi! My name is John.
+Hi! My name is Laya.
 
 
 
