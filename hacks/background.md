@@ -4,7 +4,7 @@ layout: base
 title: Background with Object
 description: Use JavaScript to have an in motion background.
 # These are locations of images in this game
-sprite: images/platformer/sprites/Adobe Express - file.png
+sprite: images/platformer/sprites/krabs_background_CSP.png
 background: images/platformer/backgrounds/z7hvekdvbvj71.webp
 permalink: /background
 ---
