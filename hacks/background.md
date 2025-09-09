@@ -1,13 +1,17 @@
 ---
+# YML definition of metadata for file, used by GH pages
 layout: base
 title: Background with Object
 description: Use JavaScript to have an in motion background.
-sprite: images/platformer/sprites/flying-ufo.png
-background: images/platformer/backgrounds/alien_planet1.jpg
+# These are locations of images in this game
+sprite: images/platformer/sprites/Rainy_day_today.webp
+background: images/platformer/backgrounds/images.jpeg
 permalink: /background
 ---
 
+<!-- HTML for where Game is stored -->
 <canvas id="world"></canvas>
+<!-- Script logic for the Game -->
 
 <script>
   const canvas = document.getElementById("world");
@@ -32,6 +36,7 @@ permalink: /background
 
     class GameObject {
       constructor(image, width, height, x = 0, y = 0, speedRatio = 0) {
+        // File entire canvas
         this.image = image;
         this.width = width;
         this.height = height;
@@ -78,6 +83,7 @@ permalink: /background
 
 //Game world in Master class for the entire game
 //Master game object for the entire game
+// Game loop is inside
 
     class GameWorld {
       static gameSpeed = 5;
@@ -95,6 +101,7 @@ permalink: /background
         this.canvas.style.left = `0px`;
         this.canvas.style.top = `${(window.innerHeight - this.height) / 2}px`;
 
+// Game objects are created
         this.objects = [
          new Background(backgroundImg, this),
          new Player(spriteImg, this)
