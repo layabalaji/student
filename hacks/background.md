@@ -4,7 +4,7 @@ layout: base
 title: Background with Object
 description: Use JavaScript to have an in motion background.
 # These are locations of images in this game
-sprite: images/platformer/sprites/spongebob-story-i-created-v0-ujv1p732ktgf1.webp
+sprite: images/platformer/sprites/640px-Xfgfjbvdhbvjhsdb.webp
 background: images/platformer/backgrounds/z7hvekdvbvj71.webp
 permalink: /background
 ---
