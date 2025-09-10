@@ -6,13 +6,13 @@ categories: [CSP, VS Code, Mac Setup]
 tags: [VS Code, Mac, Python, Jupyter, Git, Virtual Environment]
 ---
 
-# 🚀 My Journey: Setting Up VS Code on My Mac for CSP
+# My Journey: Setting Up VS Code on My Mac for CSP
 
 Switching from my Windows computer to a MacBook meant I had to learn how to set up VS Code and get the terminal working all over again. It took a lot of tries, but I finally got everything running smoothly. Here’s my journey!
 
 ---
 
-## 🖥️ 1. Installing VS Code and Dependencies on Mac
+## 1. Installing VS Code and Dependencies on Mac
 I downloaded VS Code from [https://code.visualstudio.com/](https://code.visualstudio.com/) and installed it.  
 During setup, I made sure to:  
 - Add VS Code to PATH  
@@ -61,7 +61,7 @@ source venv/bin/activate
 
 ---
 
-## 🤝 4. Repository Collaboration
+## 4. Repository Collaboration
 
 Collaboration was key! I:
 
@@ -70,7 +70,7 @@ Collaboration was key! I:
 
 ---
 
-## 📓 5. Working with Jupyter Notebooks
+## 5. Working with Jupyter Notebooks
 
 One of the most fun parts was running Jupyter notebooks. I:
 
@@ -89,7 +89,7 @@ git push
 
 ---
 
-## ✅ 6. Other Tasks Completed
+## 6. Other Tasks Completed
 
 Along the way, I also:
 
@@ -101,20 +101,20 @@ Along the way, I also:
 
 ---
 
-## 🌟 Final Thoughts
+## Final Thoughts
 
 Even though it took a lot of tries, I finally got everything set up correctly on my MacBook. This process taught me patience and persistence, but also gave me confidence in using new tools. I’m especially thankful to my peers who helped me troubleshoot along the way.  
 
 ---
 
-## 📌 Progress Weeks 1–4
+## Progress Weeks 1–4
 
-- 👤 **About Me Page** → Made an `about.md` file to share who I am  
-- 📂 **Cloned Repositories** → Pages, personal, and team repos  
-- 📑 **Moved Files** → Copied background lessons into my personal repo  
-- 📓 **Jupyter Notebooks** → Practiced with `Jokes.ipynb`, added my own jokes, and exported outputs  
-- 🎨 **Background Customization** → Edited `background.md` to change my website’s look  
+- **About Me Page** → Made an `about.md` file to share who I am  
+- **Cloned Repositories** → Pages, personal, and team repos  
+- **Moved Files** → Copied background lessons into my personal repo  
+- **Jupyter Notebooks** → Practiced with `Jokes.ipynb`, added my own jokes, and exported outputs  
+- **Background Customization** → Edited `background.md` to change my website’s look  
 
 ---
 
-👉 This whole experience showed me how switching computers is more than just plugging things in—it’s about learning new workflows, problem-solving, and adapting.
+This whole experience showed me how switching computers is more than just plugging things in—it’s about learning new workflows, problem-solving, and adapting.
