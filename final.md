@@ -69,6 +69,59 @@ This trimester in computer science, I learned how to organize my code and files 
 
 ## Self Reflection
 
+**Beginning of the trimester:** 
+
+| Skill                         | Mastered (Y/N) | Self Rank (1–5) | Peer Rank (1–5) | Teacher Rank (1–5) | Average | Notes/Evidence |
+|-------------------------------|:--------------:|:----------------:|:----------------:|:-------------------:|:-------:|:--------------:|
+| 🎯 Core Behaviors             |                |                  |                  |                     |         |                |
+| Attendance                    | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| Work Habits                   | [y]            | 3                | 0                | 0                   | 0.0     |                |
+| Behavior                      | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| Timeliness                    | [y]            | 4                | 0                | 0                   | 0.0     |                |
+| 🖥️ Technical Skills           |                |                  |                  |                     |         |                |
+| Tech/Cyber Sense              | [n]            | 2               | 0                | 0                   | 0.0     |                |
+| Tech/Cyber Talk               | [n]            | 3                | 0                | 0                   | 0.0     |                |
+| Tech Growth                   | [n]            | 4                | 0                | 0                   | 0.0     |                |
+| 🤝 Collaboration              |                |                  |                  |                     |         |                |
+| Advocacy                      | [y]            | 4                | 0                | 0                   | 0.0     |                |
+| Communication & Collab        | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| 🎨 Professional Skills        |                |                  |                  |                     |         |                |
+| Integrity                     | [y]            | 4                | 0                | 0                   | 0.0     |                |
+| Organization                  | [n]            | 2                | 0                | 0                   | 0.0     |                |
+| 📊 TOTALS                     |                | 41                | 0                | 0                   | 0.0     |                |
+| 🎯 AVERAGE SCORE              |                | 3.63              | 0.0              | 0.0                 | 0.0     |                |
+
+**End if the trimester:**
+
+| Skill                         | Mastered (Y/N) | Self Rank (1–5) | Peer Rank (1–5) | Teacher Rank (1–5) | Average | Notes/Evidence |
+|-------------------------------|:--------------:|:----------------:|:----------------:|:-------------------:|:-------:|:--------------:|
+| 🎯 Core Behaviors             |                |                  |                  |                     |         |                |
+| Attendance                    | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| Work Habits                   | [y]            | 3                | 0                | 0                   | 0.0     |                |
+| Behavior                      | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| Timeliness                    | [y]            | 5                | 0                | 0                   | 0.0     |                |
+| 🖥️ Technical Skills           |                |                  |                  |                     |         |                |
+| Tech/Cyber Sense              | [y]            | 4               | 0                | 0                   | 0.0     |                |
+| Tech/Cyber Talk               | [n]            | 2                | 0                | 0                   | 0.0     |                |
+| Tech Growth                   | [y]            | 4                | 0                | 0                   | 0.0     |                |
+| 🤝 Collaboration              |                |                  |                  |                     |         |                |
+| Advocacy                      | [n]            | 3                | 0                | 0                   | 0.0     |                |
+| Communication & Collab        | [n]            | 2                | 0                | 0                   | 0.0     |                |
+| 🎨 Professional Skills        |                |                  |                  |                     |         |                |
+| Integrity                     | [y]            | 4                | 0                | 0                   | 0.0     |                |
+| Organization                  | [y]            | 4                | 0                | 0                   | 0.0     |                |
+| 📊 TOTALS                     |                | 41                | 0                | 0                   | 0.0     |                |
+| 🎯 AVERAGE SCORE              |                | 3.63              | 0.0              | 0.0  
+
+- Improve on teamwork, collaboration, and cyber talk
+
+## Night At the Museum Contribution
+
+- Added the "Generate AI Prompt" feature on the Types of AI submodule
+- Added the Auto-fill feature for the prompts
+- Worked with my partner to create all three articles
+- Came up with and executed questions and hints for Types of AI mini quiz
+
 ## Night At the Museum Reflection
 
 - Presented Types of AI
@@ -81,3 +134,11 @@ This trimester in computer science, I learned how to organize my code and files 
 ![img](images/IMG_4855.png)
 
 I liked how the visuals looked on the CSSE game and how they made it interactive and fun to play. The display and background was done very well and would like to attempt to make something like this sometime this school year..
+
+---
+
+## Future Goals
+
+- Contribute more to group projects
+- Collaborate more with teamates
+- Further my understanding in more complex CS topics
