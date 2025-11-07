@@ -115,12 +115,16 @@ This trimester in computer science, I learned how to organize my code and files 
 
 - Improve on teamwork, collaboration, and cyber talk
 
+---
+
 ## Night At the Museum Contribution
 
 - Added the "Generate AI Prompt" feature on the Types of AI submodule
 - Added the Auto-fill feature for the prompts
 - Worked with my partner to create all three articles
 - Came up with and executed questions and hints for Types of AI mini quiz
+
+---
 
 ## Night At the Museum Reflection
 
@@ -136,6 +140,17 @@ This trimester in computer science, I learned how to organize my code and files 
 I liked how the visuals looked on the CSSE game and how they made it interactive and fun to play. The display and background was done very well and would like to attempt to make something like this sometime this school year..
 
 ---
+
+## Growth
+
+- Developed strong confidence in coding and debugging using iterative and incremental approaches.​
+- Improved ability to break down complex problems into manageable steps with computational thinking.​
+- Expanded project management and time management skills while completing long-term assignments.
+- Enhanced understanding by collaborating and asking questions to peers
+- Strengthened communication skills by explaining ideas and solutions clearly to others during teamwork.​
+- Learned to use resources for practice and reflected on feedback for continuous self-improvement.​
+- Built a solid foundation in program design, implementation, and documentation through repeated project work.​
+- Increased technical confidence and problem-solving ability, better preparing for the AP exam.
 
 ## Future Goals
 
