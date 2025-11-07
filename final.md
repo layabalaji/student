@@ -8,9 +8,11 @@ comments: true
 
 ## Introduction
 
-Throughout this trimester, I have becom
+This trimester in computer science, I learned how to organize my code and files so that my projects are easier to manage and understand. I also became more confident in navigating VS Code, learning how to use its tools to write, debug, and run programs efficiently. Finally, I improved my ability to collaborate with others, sharing code, giving feedback, and working together on projects, which helped me grow as a programmer.
 
-## MCQ Review
+---
+
+## MCQ Reflection
 
 | # | Topic | Reflection |
 | 1 | Swap Values First and Second | The code segment temporarily stores the value of one variable, then assigns the value of another variable to the first. The stored value is then assigned to the second variable. As a result, the original values of the two variables are swapped. |
@@ -46,3 +48,36 @@ Throughout this trimester, I have becom
 | 64 | Cloud computing and the Internet | Cloud computing enables easy collaboration and file sharing, but sites must also address security concerns to protect users’ private data. | 
 | 65 | Correcting errors in procedure Multiply | If y is negative, the condition count = y will never be true because count starts at 0 and only increases. |
 | 66 |  Test cases for procedure Smallest | The procedure returns the first number smaller than the first list element, so for [40, 30, 20, 10] it returns 30, which is not the smallest value in the list. | 
+
+**Topics to Focus On**:
+- 1.3: Program Design and Development
+- 1.4: Identifying and Correcting Errors
+- 2.1: Binary Numbers
+- 2.2: Data Compression
+- 3.5: Boolean Expressions
+- 3.9: Developing Algorithms
+- 3.17: Algorithmic Efficiency
+- 5.1: Beneficial and Harmful Effects
+- 5.4: Crowdsourcing
+
+**Study Plan**:
+- Review class lessons
+- Review homeworks
+- Watch AP Classroom videos
+
+---
+
+## Self Reflection
+
+## Night At the Museum Reflection
+
+- Presented Types of AI
+- People found the AI prompts interesting
+- Got lots of postive feedback
+- Overall: It was a good presentation with good content but we could have made it more game-like and fun rather than reading.
+
+![img](https://file%2B.vscode-resource.vscode-cdn.net/Users/layabalaji/layabalajix/student/images/IMG_4852%202.png?version%3D1762518733226)
+
+![img](IMG_4855.png)
+
+I liked how the visuals looked on the CSSE game and how they made it interactive and fun to play. The display and background was done very well and would like to attempt to make something like this sometime this school year.
