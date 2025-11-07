@@ -78,4 +78,4 @@ This trimester in computer science, I learned how to organize my code and files 
 
 ![img](images/IMG_4855.png)
 
-I liked how the visuals looked on the CSSE game and how they made it interactive and fun to play. The display and background was done very well and would like to attempt to make something like this sometime this school year.
+I liked how the visuals looked on the CSSE game and how they made it interactive and fun to play. The display and background was done very well and would like to attempt to make something like this sometime this school year..
