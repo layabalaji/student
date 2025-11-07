@@ -78,6 +78,6 @@ This trimester in computer science, I learned how to organize my code and files 
 
 ![img](https://file%2B.vscode-resource.vscode-cdn.net/Users/layabalaji/layabalajix/student/images/IMG_4852%202.png?version%3D1762518733226)
 
-![img](IMG_4855.png)
+![img](https://file%2B.vscode-resource.vscode-cdn.net/Users/layabalaji/layabalajix/student/images/IMG_4855.png?version%3D1762518999718)
 
 I liked how the visuals looked on the CSSE game and how they made it interactive and fun to play. The display and background was done very well and would like to attempt to make something like this sometime this school year.
