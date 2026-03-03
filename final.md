@@ -83,7 +83,7 @@ Integrated deployment into existing narrativeThis trimester in computer science,
 | 📊 TOTALS                     |                | 41                | 0                | 0                   | 0.0     |                |
 | 🎯 AVERAGE SCORE              |                | 3.63              | 0.0              | 0.0                 | 0.0     |                |
 
-**End if the trimester:**
+**End if trimester 2:**
 
 | Skill                         | Mastered (Y/N) | Self Rank (1–5) | Peer Rank (1–5) | Teacher Rank (1–5) | Average | Notes/Evidence |
 |-------------------------------|:--------------:|:----------------:|:----------------:|:-------------------:|:-------:|:--------------:|
