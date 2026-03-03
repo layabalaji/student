@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Final Review
-permalink: /final/
+permalink: /mcq/
 Author: Laya Balaji
 comments: true
 ---
