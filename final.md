@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Final Review
+title: MCQ Reflection
 permalink: /mcq/
 Author: Laya Balaji
 comments: true
@@ -34,28 +34,57 @@ This trimester in computer science, I focused on building Flask backends, implem
 | 65 | Calls to concat and substring | B and C both correctly build "jackalope" by extracting "jack" from "jackrabbit" and "lope" from "antelope" and concatenating them with "a" in the right order. |
 | 67 | Error in numOccurrences procedure | The answers are A and B. The bug is that count resets to 0 on every loop iteration, so the procedure can only ever return 0 or 1. A fails because "birch" appears twice but returns 1 instead of 2. B fails because "maple" is not the last element, so count resets to 0 after it's found and returns 0 instead of 1. C and D happen to return correct results because the target is either the last element or absent. |
 
-**High Priority Topics to Focus On**:
-- 2.2: Data Compression
-- 3.4: Strings
-- 3.11: Developing Algorithms
-- 3.17: Algorithmic Efficiency
-- 3.18: Undecidable Problems
+# AP CSP Study Plan
 
-**Medium Priority Topics to Focus On**:
-- 1.4: Identifying and Correcting Errors
-- 3.8: Iteration
-- 4.2: Fault Tolerance
-- 5.5: Legal and Ethical Concerns
+## Overall Timeline
 
-**Low Priority Topics to Focus On**:
-- 2.1: Binary Numbers
-- 3.12: Calling Procedures
-- 4.1: The Internet
+- **Week 1–2:** High Priority topics
+- **Week 2–3:** Medium Priority topics
+- **Week 3–4:** Low Priority + full review and practice
 
-**Study Plan**:
-- Review class lessons
-- Review homeworks
-- Watch AP Classroom videos
+---
+
+## High Priority
+
+- **2.2 Data Compression** — Know the difference between lossless vs. lossy and when to use each.
+- **3.4 Strings** — Practice tracing string operations using AP pseudocode (`len()`, `substring()`, `concat()`).
+- **3.11 Developing Algorithms** — Focus on reading and tracing pseudocode with sample inputs.
+- **3.17 Algorithmic Efficiency** — Understand polynomial (reasonable) vs. exponential (unreasonable) time.
+- **3.18 Undecidable Problems** — Memorize the halting problem as the key example of an undecidable problem.
+
+---
+
+## Medium Priority
+
+- **1.4 Identifying and Correcting Errors** — Know the four error types: syntax, logic, runtime, overflow.
+- **3.8 Iteration** — Trace through `REPEAT n TIMES` and `REPEAT UNTIL` loops, watch for off-by-one errors.
+- **4.2 Fault Tolerance** — Understand how redundancy lets networks route around failures.
+- **5.5 Legal and Ethical Concerns** — Review Creative Commons, copyright, fair use, and the digital divide.
+
+---
+
+## Low Priority
+
+- **2.1 Binary Numbers** — Practice binary ↔ decimal conversion and understand overflow.
+- **3.12 Calling Procedures** — Know how parameters, arguments, and return values work.
+- **4.1 The Internet** — Review DNS, HTTP/HTTPS, IP addresses, and how packets travel.
+
+---
+
+## Daily Study Routine
+
+1. Review notes on the topic
+2. Do 5–8 College Board practice MCQs
+3. Go over every wrong answer
+4. Summarize what you learned
+
+---
+
+## Final Week Tips
+
+- Take at least one full timed practice test under real conditions
+- Review the AP pseudocode reference sheet so nothing surprises you
+- Use Khan Academy AP CSP videos for clarifications
 
 ---
 
