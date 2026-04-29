@@ -6,5 +6,3 @@ description: A college planning platform with a live College Explorer, API-drive
 permalink: /capstone/college-bound
 sticky_rank: 1
 ---
-
-{% include college-bound-infograph.html %}
