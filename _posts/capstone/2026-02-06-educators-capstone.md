@@ -6,5 +6,3 @@ description: A Design-Based Research capstone creating interactive lessons that 
 permalink: /capstone/educators/
 sticky_rank: 1
 ---
-
-{% include educators-infograph.html %}
