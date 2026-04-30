@@ -258,7 +258,7 @@ h1.game-title small {
     </div>
   </div>
   <button class="btn-bb" id="title-next-btn">Choose Your Character!</button>
-  <p class="hint-txt">Press ENTER to continue</p>
+  <p class="hint-txt" id="max-pts-hint">Press ENTER to continue</p>
 </div>
 
 <div class="screen hidden" id="char-select">
@@ -963,6 +963,7 @@ function getMaxPoints() {
       max = OBJECT_TYPES[i].pts;
     }
   }
+  document.getElementById('max-pts-hint').textContent = 'Max points per catch: ' + max;
   return max;
 }
 
