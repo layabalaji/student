@@ -954,6 +954,17 @@ document.getElementById('char-back-btn').addEventListener('click', () => {
 document.getElementById('retry-btn').addEventListener('click', retryGame);
 document.getElementById('go-chars-btn').addEventListener('click', showCharFromGameover);
 document.getElementById('menu-btn').addEventListener('click', showMenu);
+
+function getMaxPoints() {
+  let max = 0;
+  for (let i = 0; i < OBJECT_TYPES.length; i++) {
+    if (OBJECT_TYPES[i].pts > max) {
+      max = OBJECT_TYPES[i].pts;
+    }
+  }
+  return max;
+}
+
 </script>
 </body>
 </html>
