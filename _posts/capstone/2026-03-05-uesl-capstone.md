@@ -7,4 +7,4 @@ permalink: /capstone/uesl/
 sticky_rank: 8
 ---
 
-{% include uesl-infograph.html %}
+

@@ -7,4 +7,3 @@ permalink: /capstone/bud-e/
 sticky_rank: 1
 ---
 
-{% include bud-e-infograph.html %}

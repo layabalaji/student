@@ -7,4 +7,4 @@ permalink: /capstone/hackathon-planners/
 sticky_rank: 1
 ---
 
-{% include hackathon-planners-infograph.html %}
+

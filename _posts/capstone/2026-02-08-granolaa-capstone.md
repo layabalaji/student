@@ -7,4 +7,3 @@ permalink: /capstone/granolaa/
 sticky_rank: 1
 ---
 
-{% include granolaa-infograph.html %}

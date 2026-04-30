@@ -6,5 +6,3 @@ description: A platform made to find your personality and connect you with other
 permalink: /capstone/wayfinding/
 sticky_rank: 1
 ---
-
-{% include wayfinding-pages-infograph.html %}

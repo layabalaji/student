@@ -7,4 +7,3 @@ permalink: /capstone/sip-website/
 sticky_rank: 1
 ---
 
-{% include sip-infograph.html %}

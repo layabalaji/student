@@ -8,4 +8,3 @@ sticky_rank: 1
 ---
 
 
-{% include acs-cancer-infograph.html %}

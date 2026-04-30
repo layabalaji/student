@@ -11,7 +11,5 @@ sticky_rank: 1
 One team, two community websites, one shared capstone infographic page.
 
 ### PYBL
-{% include pybl-infograph.html %}
 
 ### Poway NEC
-{% include powaynec-infograph.html %}

@@ -7,4 +7,3 @@ permalink: /capstone/rcr/
 sticky_rank: 1
 ---
 
-{% include rcr-poway-midland-infograph.html %}

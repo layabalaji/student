@@ -7,4 +7,4 @@ permalink: /capstone/dsa-redesign/
 sticky_rank: 8
 ---
 
-{% include dsa-redesign-infograph.html %}
+

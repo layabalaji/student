@@ -7,4 +7,4 @@ permalink: /capstone/deflock-sd/
 sticky_rank: 1
 ---
 
-{% include deflock-infograph.html %}
+

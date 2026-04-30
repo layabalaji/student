@@ -7,4 +7,3 @@ permalink: /capstone/poway-womans-club/
 sticky_rank: 1
 ---
 
-{% include pwc-infograph.html %}

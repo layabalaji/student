@@ -6,5 +6,3 @@ description: A community building game for the non profit San Diego Oasis to bri
 permalink: /capstone/oasis/
 sticky_rank: 1
 ---
-
-{% include oasis-infograph.html %}

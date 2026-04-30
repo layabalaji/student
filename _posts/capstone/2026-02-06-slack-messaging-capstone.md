@@ -7,4 +7,3 @@ permalink: /capstone/slack-messaging/
 sticky_rank: 1
 ---
 
-{% include slack-messaging-infograph.html %}

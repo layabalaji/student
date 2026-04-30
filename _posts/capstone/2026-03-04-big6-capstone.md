@@ -6,5 +6,3 @@ description:   The Big 6 Modules for Computer Science provide a structured pathw
 permalink: /capstone/big6/
 sticky_rank: 1
 ---
-
-{% include big6-infograph.html %}

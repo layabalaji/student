@@ -7,4 +7,3 @@ permalink: /capstone/kora/
 sticky_rank: 1
 ---
 
-{% include kora-capstone-infograph.html %}

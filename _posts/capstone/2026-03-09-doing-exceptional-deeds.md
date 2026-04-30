@@ -7,4 +7,3 @@ permalink: /capstone/execeptional-deeds/
 sticky_rank: 1
 ---
 
-{% include doing-exceptional-deeds.html %}

@@ -6,7 +6,7 @@ description: An AP CSP project for the Poway Recovery Center that utilizes machi
 permalink: /capstone/sentri/
 ---
 
-{% include sentri-infographic.html %}
+
 
 <br>
 

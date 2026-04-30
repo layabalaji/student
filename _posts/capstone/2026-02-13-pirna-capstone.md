@@ -6,5 +6,3 @@ description: Integrating a groups messaging system into OCS to improve collabora
 permalink: /capstone/pirna/
 sticky_rank: 1
 ---
-
-{% include pirna-capstone-infograph.html %}

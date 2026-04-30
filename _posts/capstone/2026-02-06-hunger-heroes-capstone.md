@@ -6,5 +6,3 @@ description: A Design-Based Research capstone project using JavaScript, Python, 
 permalink: /capstone/hunger-heroes/
 sticky_rank: 1
 ---
-
-{% include hunger-heroes-infograph.html %}

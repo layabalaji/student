@@ -7,4 +7,3 @@ permalink: /capstone/pusd/
 sticky_rank: 9
 ---
 
-{% include pusd-infograph.html %}

@@ -7,4 +7,3 @@ permalink: /capstone/nodcursor/
 sticky_rank: 1
 ---
 
-{% include nodcursor-infograph.html %}

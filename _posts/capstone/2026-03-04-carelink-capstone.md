@@ -6,7 +6,7 @@ description: An AP CSP capstone project designed to bridge the gap between cance
 permalink: /capstone/carelink/
 ---
 
-{% include carelink-infograph.html %}
+
 
 <br>
 

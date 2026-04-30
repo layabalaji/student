@@ -7,4 +7,4 @@ permalink: /capstone/dad-redesign/
 sticky_rank: 8
 ---
 
-{% include dad-redesign-infograph.html %}
+
