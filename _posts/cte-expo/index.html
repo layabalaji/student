@@ -1,0 +1,360 @@
+---
+layout: post
+title: "What I Learned at the CTE Expo"
+permalink: /cte-expo/
+show_reading_time: false
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What I Learned at the CTE Expo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f5f2ec;
+      --ink: #1a1a1a;
+      --accent: #c0392b;
+      --accent-light: #f9eae8;
+      --muted: #6b6b6b;
+      --rule: #d6cfc4;
+      --card: #ffffff;
+      --shadow: 0 2px 20px rgba(0,0,0,0.07);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.8;
+      font-size: 17px;
+    }
+
+    /* HERO */
+    header {
+      background: var(--ink);
+      color: #fff;
+      padding: 80px 24px 60px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 40px,
+        rgba(255,255,255,0.02) 40px,
+        rgba(255,255,255,0.02) 80px
+      );
+    }
+    .tag {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 2px;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 6vw, 3.6rem);
+      line-height: 1.15;
+      max-width: 700px;
+      margin: 0 auto 20px;
+      position: relative;
+    }
+    .meta {
+      font-size: 13px;
+      color: rgba(255,255,255,0.5);
+      letter-spacing: 0.05em;
+    }
+
+    /* LAYOUT */
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    .intro {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 1.15rem;
+      color: var(--muted);
+      border-left: 3px solid var(--accent);
+      padding-left: 20px;
+      margin-bottom: 48px;
+      animation: fadeUp 0.6s ease both;
+    }
+
+    /* HERO IMAGE */
+    .hero-img {
+      width: 100%;
+      border-radius: 4px;
+      margin-bottom: 56px;
+      box-shadow: var(--shadow);
+      animation: fadeUp 0.7s ease 0.1s both;
+    }
+
+    /* SECTIONS */
+    section {
+      margin-bottom: 64px;
+      animation: fadeUp 0.6s ease both;
+    }
+    section:nth-child(2) { animation-delay: 0.1s; }
+    section:nth-child(3) { animation-delay: 0.2s; }
+    section:nth-child(4) { animation-delay: 0.3s; }
+    section:nth-child(5) { animation-delay: 0.4s; }
+
+    hr.divider {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 0 0 56px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.75rem;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+    h2 span {
+      display: block;
+      width: 32px;
+      height: 3px;
+      background: var(--accent);
+      margin-bottom: 12px;
+      border-radius: 2px;
+    }
+
+    h3 {
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 28px 0 10px;
+    }
+
+    p { margin-bottom: 16px; color: #2c2c2c; }
+
+    ul {
+      padding-left: 0;
+      list-style: none;
+      margin-bottom: 20px;
+    }
+    ul li {
+      padding: 10px 14px 10px 40px;
+      position: relative;
+      border-bottom: 1px solid var(--rule);
+      font-size: 0.95rem;
+    }
+    ul li:first-child { border-top: 1px solid var(--rule); }
+    ul li::before {
+      content: '→';
+      position: absolute;
+      left: 14px;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    blockquote {
+      background: var(--accent-light);
+      border-left: 4px solid var(--accent);
+      padding: 18px 22px;
+      border-radius: 0 4px 4px 0;
+      margin: 28px 0;
+      font-size: 0.95rem;
+    }
+    blockquote strong { color: var(--accent); }
+
+    /* IMAGES */
+    .section-img {
+      width: 100%;
+      border-radius: 4px;
+      margin: 28px 0;
+      box-shadow: var(--shadow);
+      display: block;
+    }
+
+    /* CLUSTER TAGS */
+    .clusters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0 20px;
+    }
+    .cluster {
+      background: var(--ink);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      padding: 5px 14px;
+      border-radius: 2px;
+    }
+
+    /* ROBOTS */
+    .robot-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 20px 0;
+    }
+    .robot-card {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      padding: 20px;
+      text-align: center;
+    }
+    .robot-card .icon { font-size: 2rem; margin-bottom: 8px; }
+    .robot-card p { font-size: 0.9rem; margin: 0; color: var(--muted); }
+    .robot-card strong { display: block; color: var(--ink); margin-bottom: 4px; font-weight: 500; }
+
+    /* FOOTER */
+    footer {
+      background: var(--ink);
+      color: rgba(255,255,255,0.4);
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 13px;
+      letter-spacing: 0.05em;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 500px) {
+      .robot-cards { grid-template-columns: 1fr; }
+      header { padding: 56px 20px 44px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="tag">CTE Expo Recap</div>
+  <h1>What I Learned at the CTE Expo 🎓</h1>
+  <p class="meta">May 21, 2025 &nbsp;·&nbsp; Del Norte High School</p>
+</header>
+
+<main>
+
+  <p class="intro">Last night I had the chance to attend the CTE (Career Technical Education) Expo, and it was honestly such an eye-opening experience. From college programs to student-built robots, here's a rundown of everything I discovered.</p>
+
+  <img class="hero-img" src="IMG_6296.JPG" alt="Film production setup at the CTE Expo" />
+
+  <hr class="divider" />
+
+  <!-- PALOMAR -->
+  <section>
+    <h2><span></span>Palomar Middle College — High School, Internship, and College All in One</h2>
+    <p>One of the most exciting things I learned about was <strong>Palomar Middle College</strong>, a unique program that blends high school, college, and real-world work experience into a single pathway.</p>
+
+    <h3>Key Takeaways</h3>
+    <ul>
+      <li><strong>Dual enrollment</strong> — earn high school and college credits simultaneously, giving you a massive head start before graduation.</li>
+      <li><strong>All-in-one structure</strong> — combines a traditional high school education with Palomar College coursework and internship experience.</li>
+      <li><strong>Flexible scheduling</strong> — designed to accommodate students who want to pursue academics at their own pace alongside work or personal commitments.</li>
+      <li><strong>Cost-effective</strong> — taking college classes in high school significantly reduces time and money spent on a degree later.</li>
+      <li><strong>Career readiness</strong> — students graduate with not just a diploma and credits, but actual professional experience.</li>
+    </ul>
+
+    <img class="section-img" src="IMG_6298.JPG" alt="Poway to Palomar Middle College booth at the CTE Expo" />
+
+    <blockquote><strong>Takeaway:</strong> If you're looking to get ahead academically and professionally without waiting until after high school, Palomar Middle College is a seriously compelling option worth exploring.</blockquote>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- DECA -->
+  <section>
+    <h2><span></span>Del Norte DECA Club — Business, Competition, and Life Skills</h2>
+    <p>Another highlight of the night was learning about the <strong>Del Norte DECA Club</strong>, a student organization focused on business and entrepreneurship.</p>
+
+    <h3>How to Join</h3>
+    <p>You just need to be enrolled in <strong>any business-related class</strong> — it doesn't even have to be at Del Norte. That low barrier to entry makes it accessible to a wide range of students.</p>
+
+    <h3>Clusters</h3>
+    <p>Members participate in <strong>case studies</strong> where they recreate and solve real business situations based on their chosen cluster:</p>
+    <div class="clusters">
+      <span class="cluster">🏨 Hotel Management</span>
+      <span class="cluster">📈 Marketing</span>
+      <span class="cluster">💰 Finance</span>
+      <span class="cluster">+ more</span>
+    </div>
+
+    <h3>Competitions</h3>
+    <p>DECA members attend around <strong>3 competitions per year</strong>, with the chance to earn medals and recognition. But even beyond the hardware, competitions help you:</p>
+    <ul>
+      <li>Sharpen your public speaking and presentation skills</li>
+      <li>Think critically and solve problems under pressure</li>
+      <li>Build professional communication skills useful in any career</li>
+    </ul>
+
+    <blockquote><strong>Takeaway:</strong> DECA is one of those clubs where the benefits go far beyond what's on the surface. Even if business isn't your passion, the skills you gain are genuinely life-changing.</blockquote>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ART -->
+  <section>
+    <h2><span></span>Student Art — Photography &amp; Drawing</h2>
+    <p>Walking through the Expo, I was able to take in some of the <strong>artwork created by photography and drawing students</strong>, and it was genuinely impressive. The creativity and talent on display was a great reminder of the artistic side of CTE programs that often gets overlooked.</p>
+    <img class="section-img" src="IMG_6299.JPG" alt="Del Norte High School Studio Art display at the CTE Expo" />
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ROBOTICS -->
+  <section>
+    <h2><span></span>Robotics — Where Engineering Comes to Life</h2>
+    <p>One of the coolest parts of the night was seeing the <strong>robotics devices</strong> built by students. Two stood out in particular:</p>
+    <div class="robot-cards">
+      <div class="robot-card">
+        <div class="icon">🤖</div>
+        <strong>Ball-Shooting Device</strong>
+        <p>An automated mechanism that launches balls, showcasing mechanical design and programming.</p>
+      </div>
+      <div class="robot-card">
+        <div class="icon">🕹️</div>
+        <strong>Remote-Controlled Robot</strong>
+        <p>Capable of moving around on command, demonstrating precision engineering and control systems.</p>
+      </div>
+    </div>
+    <p>Seeing student-built machines actually <em>work</em> was a powerful reminder of what's possible when you combine technical education with hands-on creativity.</p>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- CLOSING -->
+  <section>
+    <h2><span></span>Final Thoughts</h2>
+    <p>The CTE Expo was a genuinely fun and inspiring evening. Whether it was learning about programs like Palomar Middle College, discovering extracurriculars like DECA, or simply appreciating the incredible things students are building and creating — it was a reminder that there are so many exciting opportunities available, and it's never too early to start exploring them.</p>
+    <p>If you ever get the chance to attend a CTE Expo, <strong>go</strong>. You might just find your next big passion.</p>
+  </section>
+
+</main>
+
+<footer>
+  CTE Expo &nbsp;·&nbsp; Del Norte High School &nbsp;·&nbsp; 2025
+</footer>
+
+</body>
+</html>
