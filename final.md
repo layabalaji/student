@@ -8,7 +8,7 @@ comments: true
 
 ## Introduction
 
-This trimester in computer science, I focused on building Flask backends, implementing web scraping, and deploying my projects. I became more comfortable setting up servers, creating routes, and pulling real data from the web to use in my applications. Deploying my work also taught me how to make projects accessible beyond my local machine, and these skills together pushed me to grow significantly as a programmer.
+This trimester 3 in computer science, I focused on building Flask backends, implementing web scraping, and deploying my projects. I became more comfortable setting up servers, creating routes, and pulling real data from the web to use in my applications. Deploying my work also taught me how to make projects accessible beyond my local machine, and these skills together pushed me to grow significantly as a programmer.
 
 ---
 
